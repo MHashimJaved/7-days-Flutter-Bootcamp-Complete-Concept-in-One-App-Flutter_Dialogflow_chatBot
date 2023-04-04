@@ -47,4 +47,3 @@ class _MessagesScreenState extends State<MessagesScreen> {
         separatorBuilder: (_, i) => Padding(padding: EdgeInsets.only(top: 10)),
         itemCount: widget.messages.length);
   }
-}
