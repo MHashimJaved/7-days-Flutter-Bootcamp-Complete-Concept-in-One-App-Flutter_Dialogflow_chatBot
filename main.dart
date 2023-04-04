@@ -89,4 +89,4 @@ class _HomeState extends State<Home> {
   addMessage(Message message, [bool isUserMessage = false]) {
     messages.add({'message': message, 'isUserMessage': isUserMessage});
   }
-
+}
